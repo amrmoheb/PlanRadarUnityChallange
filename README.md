@@ -24,3 +24,8 @@ IOS:
 4-	Set your development team and bundle id
 5-	Make sure you changed bundle id in build settings
 6-	Run the app to your connected iphone
+important note: if you have signing issue in xcode check this
+-select target unity-iphone
+-build settings
+-signing -> developmemt team
+be sure that the development team has been updated to your development team for debug and all release stages
